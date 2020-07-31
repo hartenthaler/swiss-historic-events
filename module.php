@@ -179,9 +179,10 @@ return new class extends AbstractModule implements ModuleCustomInterface, Module
      *      2 DATE <date or date period>
      *      2 NOTE <comment or [wikipedia de](<link>)>
      *
+     * tbd: vollständige Daten ggf. als julianisch markieren (wann war in der Schweiz die Umstellung auf den gregorianischenKalender?)
      * tbd: Links ggf. nach markdown konvertieren
-	 * tbd: SOUR ???
-     * tbd: Prüfen ob schlacht/krieg/anschlag/terror in meinem Modul bereits enthalten sind
+	 * tbd: ".\n2 SOUR " -> "; siehe "
+     * tbd: Prüfen ob schlacht/krieg/anschlag/terror in meinem Modul german-wars-battles-worldwide bereits enthalten sind
      *
      * @return Collection<string>
      */
@@ -192,7 +193,7 @@ return new class extends AbstractModule implements ModuleCustomInterface, Module
 "1 EVEN Gründung der Alten Eidgenossenschaft\n2 TYPE Schweizer Geschichte\n2 DATE AUG 1291\n2 NOTE Uri, Schwyz und Unterwalden (Obwalden und Nidwalden) begründen die Eidgenossenschaft.",
 "1 EVEN Schlacht am Morgarten\n2 TYPE Schweizer Geschichte\n2 DATE 15 NOV 1315\n2 NOTE Eidgenossen besiegen Habsburger.\n2 SOUR [Wikipedia:Schlacht am Morgarten](https://de.wikipedia.org/wiki/Schlacht_am_Morgarten)",
 "1 EVEN Luzern tritt Eidgenossenschaft bei\n2 TYPE Schweizer Geschichte\n2 DATE 1332\n2 NOTE Stadt Luzern tritt der Eidgenossenschaft bei.",
-"1 EVEN Laupenkrieg\n2 TYPE Schweizer Geschichte\n2 DATE 21 JUN 1339\n2 NOTE Eidgenossen besiegen Burgund und Habsburg.\n2 SOUR [Wikipedia:Laupenkrieg](https://de.wikipedia.org/wiki/Laupenkrieg)",
+// "1 EVEN Laupenkrieg\n2 TYPE Schweizer Geschichte\n2 DATE 21 JUN 1339\n2 NOTE Eidgenossen besiegen Burgund und Habsburg.\n2 SOUR [Wikipedia:Laupenkrieg](https://de.wikipedia.org/wiki/Laupenkrieg)",
 "1 EVEN Zürich tritt Eidgenossenschaft bei\n2 TYPE Schweizer Geschichte\n2 DATE 1351\n2 NOTE Stadt Zürich tritt der Eidgenossenschaft bei.",
 "1 EVEN Glarus und Zug treten Eidgenossenschaft bei\n2 TYPE Schweizer Geschichte\n2 DATE 1352\n2 NOTE Land Glarus sowie Stadt und Land Zug treten der Eidgenossenschaft bei.",
 "1 EVEN Bern tritt Eidgenossenschaft bei\n2 TYPE Schweizer Geschichte\n2 DATE 1353\n2 NOTE Stadt Bern tritt der Eidgenossenschaft bei.",
@@ -296,14 +297,14 @@ return new class extends AbstractModule implements ModuleCustomInterface, Module
 "1 EVEN Rätoromanisch wird 4. Landessprache\n2 TYPE Schweizer Geschichte\n2 DATE 11 DEC 1918\n2 NOTE Rund 92% der Schweizer Stimmbürger nehmen die Abstimmungsvorlage an.",
 "1 EVEN Spanischer Bürgerkrieg\n2 TYPE Schweizer Geschichte\n2 DATE FROM 17 JUL 1936 TO 01 APR 1939\n2 NOTE Der Krieg endet mit dem Sieg der Putschisten und führt zur Diktatur Francos. Rund 800 Schweizer kämpften auf der der Republik, etwa drei Dutzend auf der Seite der Putschisten.",
 "1 EVEN Guisan wird Schweizer General\n2 TYPE Schweizer Geschichte\n2 DATE FROM 30 AUG 1939 TO 20 AUG 1945\n2 NOTE Oberstkorpskommandant Henri Guisan (1874–1960) wird durch die Bundesversammlung zum General ernannt. Er wird der Bundesversammlung 1947 einen 270-seitigen über die Zeit des Aktivdienstes übergeben.",
-"1 EVEN Zweiter Weltkrieg\n2 TYPE Schweizer Geschichte\n2 DATE FROM 01 SEP 1939 TO 08 MAY 1945\n2 NOTE Der Zweite Weltkrieg beginnt mit dem deutschen Überfall auf Polen und endet mit der bedingungslosen Kapitulation der deutschen Wehrmacht, s. http://fam.jehli.ch/joomla/images/ab/AB002.pdf — schätzungsweise fordert er mit Einbezug der Opfer von Verbrechen und Kriegsfolgen bis zu 80 Mio. Opfer.",
+"1 EVEN Zweiter Weltkrieg\n2 TYPE Schweizer Geschichte\n2 DATE FROM 01 SEP 1939 TO 08 MAY 1945\n2 NOTE Der Zweite Weltkrieg beginnt mit dem deutschen Überfall auf Polen und endet mit der bedingungslosen Kapitulation der deutschen Wehrmacht — schätzungsweise fordert er mit Einbezug der Opfer von Verbrechen und Kriegsfolgen bis zu 80 Mio. Opfer; siehe auch [x bei fam.jehli.ch](http://fam.jehli.ch/joomla/images/ab/AB002.pdf)",
 "1 EVEN Letzte zivile Hinrichtung in der Schweiz\n2 TYPE Schweizer Geschichte\n2 DATE 18 OCT 1940\n2 NOTE In der Strafanstalt Sarnen wird der dreifach Mörder Hans Vollenweider (geb. 1908) mit der Guillotine hingerichtet. Während des zweiten Weltkriegs werden 17 Landesverräter nach Militärstrafrecht erschossen.",
 "1 EVEN Bombardierung Schaffhausens\n2 TYPE Schweizer Geschichte\n2 DATE 01 APR 1944\n2 NOTE Beim schwersten Bombardement Schweizerischen Territoriums verlieren in Schaffhausen vierzig Personen ihr Leben. Über hundert Personen werden verletzt.",
 "1 EVEN Murgang im Durnagelbach (Linthal GL)\n2 TYPE Schweizer Geschichte\n2 DATE 24 AUG 1944\n2 NOTE Der schwallartige Durchbruch des entstandenen Rückstaus der Linth führte zu Verheerungen der ufernahen Gebiete bis zum Walensee hinunter.",
 "1 EVEN Warschauer Pakt\n2 TYPE Schweizer Geschichte\n2 DATE 14 MAY 1955\n2 NOTE Unter Führung der UdSSR wird der Warschauer Pakt gegründet.",
 "1 EVEN Flugzeugabsturz bei Dürrenäsch\n2 TYPE Schweizer Geschichte\n2 DATE 4 SEP 1963\n2 NOTE Eine Swissair-Maschine stürzt beim Flug Zürich-Genf ab. Alle 82 Insassen sterben, darunter 43 aus dem 217 Einwohner zählenden Bauerndorf Humlikon, die eine landwirtschaftliche Versuchsanstalt in der Nähe von Genf besuchen wollten. Das Unglück hinterliess im Dorf 39 Vollwaisen und fünf Halbwaisen.",
 "1 EVEN Bomenanschlag auf Swissair-Maschine\n2 TYPE Schweizer Geschichte\n2 DATE 21 FEB 1970\n2 NOTE Bei Würenlingen stürzt die Maschine des Fluges Zürich-Tel Aviv durch einen Paketbombenanschlag palästinensischer Terroristen ab. Alle 47 Insassen, darunter zehn Schweizer, kommen ums Leben.",
-"1 EVEN Glarner Landsgemeinde führt Stimm- und Wahlrecht für Frauen ein\n2 TYPE Schweizer Geschichte\n2 DATE 03 MAY 1971\n2 NOTE Im Zuge der Eidg. Volksabstimmung vom 7. Februar 1971 erhalten die Glarnerinnen das Stimm- und Wahlrecht in Kanton und Gemeinden, s. http://www.srf.ch/play/tv/me_schonvergessen/video/glarner-sagen-ja-zum-frauenstimmrecht?id=4a134ddb-cd2e-4783-8d94-d7c9dcbde285",
+"1 EVEN Glarner Landsgemeinde führt Stimm- und Wahlrecht für Frauen ein\n2 TYPE Schweizer Geschichte\n2 DATE 03 MAY 1971\n2 NOTE Im Zuge der Eidg. Volksabstimmung vom 7. Februar 1971 erhalten die Glarnerinnen das Stimm- und Wahlrecht in Kanton und Gemeinden; siehe [Video im SRF](http://www.srf.ch/play/tv/me_schonvergessen/video/glarner-sagen-ja-zum-frauenstimmrecht?id=4a134ddb-cd2e-4783-8d94-d7c9dcbde285)",
 "1 EVEN erste Glarner Landsgemeinde mit Beteiligung der Frauen\n2 TYPE Schweizer Geschichte\n2 DATE 07 MAY 1972\n2 NOTE Zum ersten Mal nehmen Frauen an einer kantonalen Landsgemeinde teil.",
 "1 EVEN Atomunfall Tschernobyl\n2 TYPE Schweizer Geschichte\n2 DATE 26 APR 1986\n2 NOTE Eine Kernschmelze in einem Reaktor in Tschernobyl bringt tausend Menschen den Tod und belastet weite Teile Europas radioaktiv. Die radioaktive Wolke erreicht am 30. April 1986 die Schweiz. In der Schweiz sind das Tessin, ein Teil der Ostschweiz und einige Gebiete des Juras die am schlimmsten betroffenen Regionen.",
 "1 EVEN Orkan Vivian fegt über die Gebirgswälder\n2 TYPE Schweizer Geschichte\n2 DATE 25 FEB 1990\n2 NOTE Der Orkan Vivian kam mit Windböen von bis zu 268 km/h und dauerte bis zum 27. Februar an.",
