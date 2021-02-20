@@ -1,11 +1,11 @@
 ﻿# swiss-historic-events
-This module provides historical facts (in German language) for [webtrees](https://www.webtrees.net/) - Events in Switzerland
+This module provides historical facts (in German language) for [webtrees](https://www.webtrees.net/) - Historic Events: Switzerland
 based on data from Peter Jehli-Kamm, baum.jehli.ch
 
 ## System requirements
 Same as [webtrees#system-requirements](https://github.com/fisharebest/webtrees#system-requirements).
 
-Tested with 2.0.7 version of webtrees.
+Tested with 2.0.11 version of webtrees.
 
 ## Installation
 1. Make database backup
@@ -16,4 +16,7 @@ Tested with 2.0.7 version of webtrees.
 ## Usage
 Activate this module as an admin (in Control Panel/Modules/Individual page/Historic events).
 
-Select as user "Historic events" at the "Facts and events" tab. 
+For wikipedia links in the notes markdown formatting is used; this should be enabled for your tree. See Control panel/Manage family trees/Preferences and then scroll down to "Text" and mark the option "markdown".
+If markdown is disabled the links are still working, but the formatting isn't so nice.
+
+Select as user "Historic events" at the "Facts and events" tab.
