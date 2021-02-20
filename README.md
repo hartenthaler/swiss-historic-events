@@ -1,6 +1,7 @@
 ﻿# swiss-historic-events
 This module provides historical facts (in German language) for [webtrees](https://www.webtrees.net/) - Historic Events: Switzerland
-based on data from Peter Jehli-Kamm, baum.jehli.ch
+
+This module contains around 120 events in Switzerland or with significance for the Swiss (since 1291), based on data from Peter Jehli-Kamm, baum.jehli.ch.
 
 ## System requirements
 Same as [webtrees#system-requirements](https://github.com/fisharebest/webtrees#system-requirements).

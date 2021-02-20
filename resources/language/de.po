@@ -14,8 +14,10 @@ msgstr ""
 "Language: de\n"
 "X-Poedit-SearchPath-0: module.php\n"
 
+#: module.php:89
 msgid "Historical facts (in German) - events in Switzerland"
 msgstr "Historische Fakten (in Deutsch) - Ereignisse in der Schweiz"
 
+#: module.php:191
 msgid "Historic event: Switzerland"
 msgstr "Historisches Ereignis: Schweiz"
