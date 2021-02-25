@@ -38,13 +38,13 @@ return new class extends AbstractModule implements ModuleCustomInterface, Module
 
     public const CUSTOM_TITLE = 'Historic Events: Switzerland 🇨🇭';
 
-    public const CUSTOM_AUTHOR = 'Module: Hermann Hartenthaler / Data: Peter Jehli-Kamm, baum.jehli.ch';
+    public const CUSTOM_AUTHOR = 'Module: Hermann Hartenthaler / Data: Peter Jehli-Kamm';
     
     public const CUSTOM_WEBSITE = 'https://github.com/hartenthaler/swiss-historic-events/';
     
-    public const CUSTOM_VERSION = '2.0.11.1';
+    public const CUSTOM_VERSION = '2.0.11.2';
 
-    public const CUSTOM_LAST = 'https://github.com/hartenthaler/swiss-historic-events/blob/master/latest-version.txt';
+    public const CUSTOM_LAST = 'https://github.com/hartenthaler/swiss-historic-events/raw/master/latest-version.txt';
 
     /**
      * Constructor.  The constructor is called on *all* modules, even ones that are disabled.
@@ -293,7 +293,6 @@ return new class extends AbstractModule implements ModuleCustomInterface, Module
 "1 EVEN Brand von Glarus\n2 TYPE ".$eventType."\n2 DATE FROM 10 MAY 1861 TO 11 MAY 1861\n2 NOTE Zwei Drittel des Orts Glarus werden beim Brand in der Nacht auf den 11. Mai zerstört; siehe [altglarus.ch](http://www.altglarus.ch )",
 "1 EVEN Glarner Landsgemeinde erlässt Fabrikgesetz\n2 TYPE ".$eventType."\n2 DATE 22 MAY 1864\n2 NOTE Die Glarner Landsgemeinde stimmt dem «Gesetz über die Fabrikpolizei» zu, welche die Tagshöchstarbeitszeit auf 12 Stunden festsetzt, Nachtarbeit und Arbeit Schulpflichtiger verbietet sowie einen minimalen Wöchnerinnenschutz einführt.",
 "1 EVEN erste Genfer Konvention\n2 TYPE ".$eventType."\n2 DATE 22 AUG 1864\n2 NOTE Im Genfer Stadthaus unterzeichnen zwölf Staaten die Konvention «betreffend die Linderung des Loses der im Felddienst verwundeten Militärpersonen»",
-"1 EVEN Deutsch-Französischer Krieg\n2 TYPE ".$eventType."\n2 DATE FROM 19 JUL 1870 TO 10 MAY 1871\n2 NOTE Der Deutsch-Französische Krieg kostete 180'000 Soldaten das Leben.",
 "1 EVEN Übertritt der Bourbaki-Armee\n2 TYPE ".$eventType."\n2 DATE FROM 01 FEB 1871 TO 03 FEB 1871\n2 NOTE Die französische, 87'000 Mann starke Bourbaki-Armee wird entwaffnet und in der Schweiz bis März 1871 interniert. Die Schweizer Truppen stehen unter dem Kommando von General Hans Herzog (1819–1894).",
 "1 EVEN Grubenunglück im Landesplattenberg Engi GL\n2 TYPE ".$eventType."\n2 DATE 9 MAR 1874\n2 NOTE Als sich eine Grubendecke löst, finden drei Männer den Tod. Es ist der einzige Unfall mit Todesfolge im Landesplattenberg.",
 "1 EVEN Bergsturz in Elm\n2 TYPE ".$eventType."\n2 DATE 11 SEP 1881\n2 NOTE 83 Gebäude werden zerstört und 115 Personen verlieren ihr Leben",
@@ -308,7 +307,6 @@ return new class extends AbstractModule implements ModuleCustomInterface, Module
 "1 EVEN Letzte zivile Hinrichtung in der Schweiz\n2 TYPE ".$eventType."\n2 DATE 18 OCT 1940\n2 NOTE In der Strafanstalt Sarnen wird der dreifach Mörder Hans Vollenweider (geb. 1908) mit der Guillotine hingerichtet. Während des zweiten Weltkriegs werden 17 Landesverräter nach Militärstrafrecht erschossen.",
 "1 EVEN Bombardierung Schaffhausens\n2 TYPE ".$eventType."\n2 DATE 01 APR 1944\n2 NOTE Beim schwersten Bombardement Schweizerischen Territoriums verlieren in Schaffhausen vierzig Personen ihr Leben. Über hundert Personen werden verletzt.",
 "1 EVEN Murgang im Durnagelbach (Linthal GL)\n2 TYPE ".$eventType."\n2 DATE 24 AUG 1944\n2 NOTE Der schwallartige Durchbruch des entstandenen Rückstaus der Linth führte zu Verheerungen der ufernahen Gebiete bis zum Walensee hinunter.",
-// "1 EVEN Warschauer Pakt\n2 TYPE ".$eventType."\n2 DATE 14 MAY 1955\n2 NOTE Unter Führung der UdSSR wird der Warschauer Pakt gegründet.",
 "1 EVEN Flugzeugabsturz bei Dürrenäsch\n2 TYPE ".$eventType."\n2 DATE 4 SEP 1963\n2 NOTE Eine Swissair-Maschine stürzt beim Flug Zürich-Genf ab. Alle 82 Insassen sterben, darunter 43 aus dem 217 Einwohner zählenden Bauerndorf Humlikon, die eine landwirtschaftliche Versuchsanstalt in der Nähe von Genf besuchen wollten. Das Unglück hinterliess im Dorf 39 Vollwaisen und fünf Halbwaisen.",
 "1 EVEN Bomenanschlag auf Swissair-Maschine\n2 TYPE ".$eventType."\n2 DATE 21 FEB 1970\n2 NOTE Bei Würenlingen stürzt die Maschine des Fluges Zürich-Tel Aviv durch einen Paketbombenanschlag palästinensischer Terroristen ab. Alle 47 Insassen, darunter zehn Schweizer, kommen ums Leben.",
 "1 EVEN Glarner Landsgemeinde führt Stimm- und Wahlrecht für Frauen ein\n2 TYPE ".$eventType."\n2 DATE 03 MAY 1971\n2 NOTE Im Zuge der Eidg. Volksabstimmung vom 7. Februar 1971 erhalten die Glarnerinnen das Stimm- und Wahlrecht in Kanton und Gemeinden; siehe [Video im SRF](http://www.srf.ch/play/tv/me_schonvergessen/video/glarner-sagen-ja-zum-frauenstimmrecht?id=4a134ddb-cd2e-4783-8d94-d7c9dcbde285 ).",
