@@ -1,3 +1,9 @@
+# Deprecated
+
+This repository is superseded by [hh-historic-events](https://github.com/hartenthaler/hh-historic-events). Please use the new combined module for future development, issues, and releases.
+
+---
+
 ﻿# swiss-historic-events
 This module provides historical facts (in German language) for [webtrees](https://www.webtrees.net/) - Historic Events: Switzerland
 
